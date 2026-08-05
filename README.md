@@ -2,6 +2,7 @@ python -m venv venv
 .\venv\scripts\activate   
 pip install fastapi uvicorn sqlalchemy pymysql
 pip freeze > requirements.txt
+
 uvicorn main:app --reload    
 
 
